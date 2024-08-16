@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "clean": "deno run --allow-read --allow-write cleanup.ts"
+  },
+  "imports": {
+    "fs/": "https://deno.land/std@0.104.0/fs/",
+    "path/": "https://deno.land/std@0.104.0/path/"
+  }
+}
